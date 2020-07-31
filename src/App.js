@@ -19,8 +19,8 @@ export default class App extends React.Component {
             width={200}
             height={200}
             transparent={true}
-            controller={this.state.show ? this.state.playController : undefined}
-            file="newSuccessCheck.flr"
+            controller={this.state.playController}
+            file="successCheck.flr"
           />
         )}
       </div>
